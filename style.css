@@ -71,3 +71,41 @@ img {
 .clear {
   clear: both;
 }
+@media screen and (max-width: 419px) {
+  body {
+    background-color: #F2F2CD;
+    font-size: 1.65em;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 0 auto;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .row {
+    margin-top:10px;
+  }
+  #steps .row {
+    background-color: white;
+    padding: 0 0 15px 0;
+  }
+  .container.grey {
+    background-color: #F2F2CD;
+  }
+  hr {
+    border-top: 3px solid black;
+  }
+
+
+}
